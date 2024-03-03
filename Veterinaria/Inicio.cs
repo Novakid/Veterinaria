@@ -25,13 +25,11 @@ namespace Veterinaria
 
         private void lblCrearUsuario_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            //Creamos la nueva pestaña a invocar con el nombre del form a invocar
+            
             Creacion crearUsuario = new Creacion();
 
-            //a la variable anterior le daremos la propiedad ShowDialog
-            //nos hara tener prioridad en la pestaña nueva creada.
             crearUsuario.ShowDialog();
-            //No dejara usar otra ventana hasta que se cierre la ventana creada.
+
         }
 
         MySqlConnection conexion = new MySqlConnection("server=localhost; port=3306; database=bd_veterinaria; uid=root; pwd=''");
@@ -42,6 +40,9 @@ namespace Veterinaria
             {
                 conexion.Open();
 
+                //Utilizaremos la libreria MySql.Data.MySqlClient para poder conectarnos a MySQL
+                //Con dicha libreria nos dejara utilizar MySqlCommand y MySqlDataReader
+                //Importante diferenciar entre System.MySql.Client y MySql.Data.MySqlqClient
                 MySqlCommand comando = new MySqlCommand("SELECT nivel FROM usuarios WHERE usuario = @Usuario AND contrasena = @Contrasena", conexion);
                 comando.Parameters.AddWithValue("@Usuario", txtUsuario.Text);
                 comando.Parameters.AddWithValue("@Contrasena", txtContra.Text);
