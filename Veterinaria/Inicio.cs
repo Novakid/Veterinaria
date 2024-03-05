@@ -61,7 +61,8 @@ namespace Veterinaria
                     }
                     else if (nivelUsuario == 2)
                     {
-                        Creacion nuevo = new Creacion();
+                        AdminMenu nuevo = new AdminMenu();
+                        this.Hide();
                         nuevo.ShowDialog();
                     }
                 }

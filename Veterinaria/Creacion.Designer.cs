@@ -37,9 +37,10 @@
             txtCrearUsuario = new TextBox();
             txtCrearContra = new TextBox();
             txtCompararContra = new TextBox();
-            txtNivel = new TextBox();
             lblResultado = new Label();
             button1 = new Button();
+            rb1 = new RadioButton();
+            rb2 = new RadioButton();
             SuspendLayout();
             // 
             // btnCrearUsuario
@@ -52,6 +53,7 @@
             btnCrearUsuario.TabIndex = 0;
             btnCrearUsuario.Text = "INGRESAR";
             btnCrearUsuario.UseVisualStyleBackColor = true;
+            btnCrearUsuario.Click += btnCrearUsuario_Click;
             // 
             // label1
             // 
@@ -120,21 +122,13 @@
             txtCompararContra.Size = new Size(189, 23);
             txtCompararContra.TabIndex = 8;
             // 
-            // txtNivel
-            // 
-            txtNivel.Location = new Point(151, 214);
-            txtNivel.Name = "txtNivel";
-            txtNivel.Size = new Size(189, 23);
-            txtNivel.TabIndex = 9;
-            // 
             // lblResultado
             // 
             lblResultado.AutoSize = true;
-            lblResultado.Location = new Point(405, 152);
+            lblResultado.Location = new Point(285, 280);
             lblResultado.Name = "lblResultado";
-            lblResultado.Size = new Size(60, 15);
+            lblResultado.Size = new Size(0, 15);
             lblResultado.TabIndex = 10;
-            lblResultado.Text = "Sin definir";
             // 
             // button1
             // 
@@ -149,6 +143,28 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
+            // rb1
+            // 
+            rb1.AutoSize = true;
+            rb1.Location = new Point(166, 215);
+            rb1.Name = "rb1";
+            rb1.Size = new Size(61, 19);
+            rb1.TabIndex = 12;
+            rb1.TabStop = true;
+            rb1.Text = "Nivel 1";
+            rb1.UseVisualStyleBackColor = true;
+            // 
+            // rb2
+            // 
+            rb2.AutoSize = true;
+            rb2.Location = new Point(258, 215);
+            rb2.Name = "rb2";
+            rb2.Size = new Size(61, 19);
+            rb2.TabIndex = 13;
+            rb2.TabStop = true;
+            rb2.Text = "Nivel 2";
+            rb2.UseVisualStyleBackColor = true;
+            // 
             // Creacion
             // 
             AcceptButton = btnCrearUsuario;
@@ -156,9 +172,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(521, 363);
             ControlBox = false;
+            Controls.Add(rb2);
+            Controls.Add(rb1);
             Controls.Add(button1);
             Controls.Add(lblResultado);
-            Controls.Add(txtNivel);
             Controls.Add(txtCompararContra);
             Controls.Add(txtCrearContra);
             Controls.Add(txtCrearUsuario);
@@ -186,8 +203,9 @@
         private TextBox txtCrearUsuario;
         private TextBox txtCrearContra;
         private TextBox txtCompararContra;
-        private TextBox txtNivel;
         private Label lblResultado;
         private Button button1;
+        private RadioButton rb1;
+        private RadioButton rb2;
     }
 }

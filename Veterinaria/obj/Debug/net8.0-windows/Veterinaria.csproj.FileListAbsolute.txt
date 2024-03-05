@@ -38,3 +38,4 @@ C:\Users\NovaKid\Desktop\Project\Veterinaria\Veterinaria\bin\Debug\net8.0-window
 C:\Users\NovaKid\Desktop\Project\Veterinaria\Veterinaria\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
 C:\Users\NovaKid\Desktop\Project\Veterinaria\Veterinaria\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
 C:\Users\NovaKid\Desktop\Project\Veterinaria\Veterinaria\obj\Debug\net8.0-windows\Veterinaria.sourcelink.json
+C:\Users\NovaKid\Desktop\Project\Veterinaria\Veterinaria\obj\Debug\net8.0-windows\Veterinaria.AdminMenu.resources

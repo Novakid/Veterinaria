@@ -35,7 +35,6 @@
             label3 = new Label();
             txtUsuario = new TextBox();
             txtContra = new TextBox();
-            lblCrearUsuario = new LinkLabel();
             SuspendLayout();
             // 
             // btnEntrar
@@ -76,7 +75,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(260, 89);
+            label2.Location = new Point(260, 79);
             label2.Name = "label2";
             label2.Size = new Size(121, 15);
             label2.TabIndex = 3;
@@ -85,7 +84,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(244, 186);
+            label3.Location = new Point(245, 177);
             label3.Name = "label3";
             label3.Size = new Size(148, 15);
             label3.TabIndex = 4;
@@ -111,17 +110,6 @@
             txtContra.TabIndex = 6;
             txtContra.TextAlign = HorizontalAlignment.Center;
             // 
-            // lblCrearUsuario
-            // 
-            lblCrearUsuario.AutoSize = true;
-            lblCrearUsuario.Location = new Point(262, 300);
-            lblCrearUsuario.Name = "lblCrearUsuario";
-            lblCrearUsuario.Size = new Size(130, 15);
-            lblCrearUsuario.TabIndex = 7;
-            lblCrearUsuario.TabStop = true;
-            lblCrearUsuario.Text = "Crear un nuevo usuario";
-            lblCrearUsuario.LinkClicked += lblCrearUsuario_LinkClicked;
-            // 
             // Inicio
             // 
             AcceptButton = btnEntrar;
@@ -129,7 +117,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(646, 351);
             ControlBox = false;
-            Controls.Add(lblCrearUsuario);
             Controls.Add(txtContra);
             Controls.Add(txtUsuario);
             Controls.Add(label3);
@@ -153,6 +140,5 @@
         private Label label3;
         private TextBox txtUsuario;
         private TextBox txtContra;
-        private LinkLabel lblCrearUsuario;
     }
 }
