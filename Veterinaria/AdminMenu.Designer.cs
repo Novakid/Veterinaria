@@ -80,6 +80,7 @@
             buscarToolStripMenuItem.Name = "buscarToolStripMenuItem";
             buscarToolStripMenuItem.Size = new Size(180, 24);
             buscarToolStripMenuItem.Text = "Buscar";
+            buscarToolStripMenuItem.Click += buscarToolStripMenuItem_Click;
             // 
             // productosToolStripMenuItem1
             // 

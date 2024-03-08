@@ -1,12 +1,68 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\NovaKid\\Desktop\\Project\\Veterinaria\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5592D1B-4D0C-46F6-A551-ADDBB6953693}|Veterinaria\\Veterinaria.csproj|c:\\users\\novakid\\desktop\\project\\veterinaria\\veterinaria\\adminbuscar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5592D1B-4D0C-46F6-A551-ADDBB6953693}|Veterinaria\\Veterinaria.csproj|solutionrelative:veterinaria\\adminbuscar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5592D1B-4D0C-46F6-A551-ADDBB6953693}|Veterinaria\\Veterinaria.csproj|C:\\Users\\NovaKid\\Desktop\\Project\\Veterinaria\\veterinaria\\adminbuscar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5592D1B-4D0C-46F6-A551-ADDBB6953693}|Veterinaria\\Veterinaria.csproj|solutionrelative:veterinaria\\adminbuscar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAH8UAAAAAAAAAAAjwIUUAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-03-08T08:08:34.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "adminBuscar.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\NovaKid\\Desktop\\Project\\Veterinaria\\Veterinaria\\adminBuscar.Designer.cs",
+              "RelativeDocumentMoniker": "Veterinaria\\adminBuscar.Designer.cs",
+              "ToolTip": "C:\\Users\\NovaKid\\Desktop\\Project\\Veterinaria\\Veterinaria\\adminBuscar.Designer.cs",
+              "RelativeToolTip": "Veterinaria\\adminBuscar.Designer.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAqwFcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T08:03:56.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminBuscar.cs",
+              "DocumentMoniker": "C:\\Users\\NovaKid\\Desktop\\Project\\Veterinaria\\Veterinaria\\AdminBuscar.cs",
+              "RelativeDocumentMoniker": "Veterinaria\\AdminBuscar.cs",
+              "ToolTip": "C:\\Users\\NovaKid\\Desktop\\Project\\Veterinaria\\Veterinaria\\AdminBuscar.cs",
+              "RelativeToolTip": "Veterinaria\\AdminBuscar.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA2wBoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T07:58:00.53Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -32,5 +32,11 @@ namespace Veterinaria
             //Pero si utilizare el ShowDialog para darle prioridad a esa pestaña.
             crear.ShowDialog();
         }
+
+        private void buscarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            adminBuscar buscador = new adminBuscar();
+            buscador.ShowDialog();
+        }
     }
 }
